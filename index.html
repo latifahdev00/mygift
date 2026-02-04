@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To my soulmate </title>
+    <link rel="icon" type="image/png" href="imgs/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="javascript:void(0)" onclick="window.location.reload();">Home</a></li>
+                <li><a href="javascript:void(0)" onclick="showArchive()">My Thoughts</a></li>
+                <li><a href="javascript:void(0)" onclick="openVentSpace()">My Space</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="/imgs/bg3.svg" class="main-bg" alt="background">
+
+        <div id="hero-content" class="hero-container">
+            <h1 class="hero-text" id="main-title"></h1>
+            <p class="paragraph" id="main-desc"></p>
+            <button type="button" class="btn" onclick="changeContent()">Start</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
